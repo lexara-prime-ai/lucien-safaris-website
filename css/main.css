@@ -263,7 +263,7 @@ section {
     flex-wrap: wrap;
     gap: 1.5rem;
     padding-top: 7rem;
-    background: #fff url(/img/bg4.jpg) center center/cover no-repeat;
+    background: #fff url(../img/bg4.jpg) center center/cover no-repeat;
     clip-path: polygon(100% 0, 100% 100%, 0 52%, 0% 0%);
 }
 
