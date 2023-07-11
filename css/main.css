@@ -29,17 +29,20 @@ html {
     scroll-behavior: smooth;
 }
 
-html::webkit-scrollbar {
-    width: .8rem;
+::-webkit-scrollbar {
+    width: 5px;
 }
 
-html::webkit-scrollbar-track {
-    background: transparent;
+::-webkit-scrollbar-track {
+    background: var(--bg-color-1);
 }
 
-html::webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
+    background: #ff8f1fa1;
+}
+
+::-webkit-scrollbar-thumb:hover {
     background: var(--primary);
-    border-radius: 5rem;
 }
 
 body {
