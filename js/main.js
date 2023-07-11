@@ -29,17 +29,20 @@ let themeBtn = document.querySelector('#theme-btn');
 themeBtn.onclick = () => {
     themeBtn.classList.toggle('fa-sun');
     if (themeBtn.classList.contains('fa-sun')) {
+
         document.body.classList.add('active');
-        document.getElementById("img").src="img/logo-concept-no-bg-dark.png";
-        // document.getElementById("silohuette").src="img/giraffe-silohuette-white.png";
-        document.getElementById("home").style.background="url(img/bg2.png)";
-        // document.getElementById("home-title").style.color = "#444";
-        // document.getElementById("home-content").style.color = "#444";
+
+        document.getElementById("img").src = "img/logo-concept-no-bg-dark.png";
+
+        document.getElementById("home").style.background = "url(img/bg2.png)";
+        document.getElementById("home-title").style.color = "#222";
+        document.getElementById("home-content").style.color = "#222";
     } else {
         document.body.classList.remove('active');
-        document.getElementById("img").src="img/logo-concept.png";
-        // document.getElementById("silohuette").src="img/giraffe-silohuette.png";
-        document.getElementById("home").style.background="url(img/bg4.jpg)";
+
+        document.getElementById("img").src = "img/logo-concept.png";
+
+        document.getElementById("home").style.background = "url(img/bg4.jpg) center center/cover no-repeat";
     }
 }
 

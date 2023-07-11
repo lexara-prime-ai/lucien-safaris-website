@@ -280,13 +280,14 @@ section {
 }
 
 .home .content h3 {
-    color: var(--text-color-1);
+    color: #242424;
     font-size: 4rem;
 }
 
 .home .content p {
-    color: var(--text-color-2);
+    color: #242424;
     font-size: 1.7rem;
+    font-weight: 500;
     line-height: 1.7;
     padding: 1rem 0;
 }
